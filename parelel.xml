@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="regression">
+    <test name="regression RenasTechC4.Selenium_HasanYild"  parallel="classes" thread-count="5" >
+
+
+        <classes>
+            <class name="Google_Title_Verification"></class>
+            <class name="c1_Locators"></class>
+            <class name="c3_Radio_Buttons"></class>
+            <class name="c3_Dropdown"></class>
+            <class name="c1_Smart_Bear_Login"></class>
+        </classes>
+    </test>
+
+</suite>
